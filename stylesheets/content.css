@@ -1,0 +1,139 @@
+
+
+body {–webkit–font-family–smoothing: antialiased; –moz–osx–font–smoothing: grayscale;
+font–family: 'PT Sans', sans-serif; background-color:  #ff0080;}
+.wrapper {
+  width: 1000px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin: -80px 0 0 -500px;
+
+}
+
+.base{
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+  /* position: absolute; */
+  background: url('../img/emoji-120.png');
+  animation-play-state: running;
+}
+.smile{
+  width: 160px;
+  height: 160px;
+display: block;
+  /* position: absolute; */
+  background: url('../img/emoji-120.png');
+  animation: smile 0.8s steps(1)  infinite;
+
+}
+
+.eyes{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji-120.png');
+  animation: eyes 0.8s steps(1)  infinite;
+}
+
+
+.smile1{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji-121.png');
+  animation: smile 0.8s steps(1)  infinite;
+}
+
+.eyes1{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji-121.png');
+  animation: eyes 0.8s steps(1)  infinite;
+}
+
+.smile2{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji-122.png');
+  animation: smile 0.8s steps(1)  infinite;
+}
+
+.eyes2{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/emoji-122.png');
+  animation: eyes 0.8s steps(1)  infinite;
+}
+.smile3{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/3.png');
+  animation: smile 0.8s steps(1)  infinite;
+}
+.eyes3{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/3.png');
+  animation: eyes 0.8s steps(1)  infinite;
+}
+.smile4{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/4.png');
+  animation: smile 0.8s steps(1)  infinite;
+}
+.eyes4{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/4.png');
+  animation: eyes 0.8s steps(1)  infinite;
+}
+.smile5{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/5.png');
+  animation: smile 0.8s steps(1)  infinite;
+}
+.eyes5{
+  width: 160px;
+  height: 160px;
+  display: block;
+  position: absolute;
+  background: url('../img/5.png');
+  animation: eyes 0.8s steps(1)  infinite;
+}
+
+@keyframes smile {
+0%{ background-position:   -160px 0px;}
+30%{ background-position:   -320px 0px;}
+60%{ background-position:   -480px 0px;}
+}
+
+@keyframes eyes {
+0%{ background-position:   -640px 0px;}
+30%{ background-position:   -800px 0px;}
+60%{ background-position:   -960px 0px;}
+}
